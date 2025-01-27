@@ -6,3 +6,8 @@ print(num1)
 
 num2 = (50 - 5*5) / 4
 print(num2)
+x = 11//2
+print(x)
+y = 4
+y = y/2
+print(y)
