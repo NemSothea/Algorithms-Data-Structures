@@ -4,5 +4,10 @@ objects = [1,5,30,90,80]
 # print(objects[-1])
 # print(objects[-2:])
 
-newObjects = objects + [60,20,26]
-print(newObjects.append(99))
+# newObjects = objects + [60,20,26]
+# print(newObjects.append(99))
+
+
+
+cubes = 4**3
+print(cubes)
