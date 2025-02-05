@@ -39,35 +39,36 @@ import UIKit
  Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
 
  */
-func romanToInt(_ s: String) -> Int {
-    
-    let romanValue : [Character : Int] = [
-        "I" : 1,
-        "V" : 5,
-        "X" : 10,
-        "L" : 50,
-        "C" : 100,
-        "D" : 500,
-        "M" : 1000
-    ]
-    
-    var total = 0
-    let convertArrayValue = Array(s)
-    
-     for i in 0..<convertArrayValue.count {
+//func romanToInt(_ s: String) -> Int {
+//    
+//    let romanValue : [Character : Int] = [
+//        "I" : 1,
+//        "V" : 5,
+//        "X" : 10,
+//        "L" : 50,
+//        "C" : 100,
+//        "D" : 500,
+//        "M" : 1000
+//    ]
+//    
+//    var total = 0
+//    let convertArrayValue = Array(s)
+//    
+//     for i in 0..<convertArrayValue.count {
+//
+//         guard let currentValue = romanValue[convertArrayValue[i]] else {
+//             return 0
+//         }
+//         if i + 1 < convertArrayValue.count, let nextValue = romanValue[convertArrayValue[i + 1]], currentValue < nextValue {
+//             total -= currentValue
+//         }else {
+//             total += currentValue
+//         }
+//
+//     }
+//
+//   return total
+//}
+//romanToInt("MCMXCIV")
 
-         guard let currentValue = romanValue[convertArrayValue[i]] else {
-             return 0
-         }
-         if i + 1 < convertArrayValue.count, let nextValue = romanValue[convertArrayValue[i + 1]], currentValue < nextValue {
-             total -= currentValue
-         }else {
-             total += currentValue
-         }
-
-     }
-
-   return total
-}
-romanToInt("MCMXCIV")
 
