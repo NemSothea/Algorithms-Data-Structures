@@ -11,3 +11,6 @@ print(x)
 y = 4
 y = y/2
 print(y)
+text = "Python Programming"
+slice_text = text[0:6]
+print(slice_text)
