@@ -1,0 +1,42 @@
+{
+    "status": true,
+    "message": "Get user login successfully",
+    "payload": {
+      "id": 156,
+      "name": "Leng Sambath",
+      "fullName": "Leng Sambath",
+      "hiredDate": "2020-03-12",
+      "department": {
+        "id": 8,
+        "name": "Android",
+        "organization": {
+          "id": "UTLZ_590",
+          "name": "KOSIGN"
+        },
+        "departmentCode": "80",
+        "managerId": "sakary1",
+        "parentDepartmentCode": "MOBILE R&D"
+      },
+      "email": "lengsambthsb2004@gmail.com",
+      "phone": "95496860",
+      "position": "Software Engineer I",
+      "profilePhoto": "",
+      "bizplayId": "sambath",
+      "roles": [
+        "USER"
+      ],
+      "default_work_hour": {
+        "id": 3,
+        "startWorkTime": "8:00",
+        "endWorkTime": "17:00"
+      },
+      "contract": {
+        "id": 2,
+        "name": "EFC",
+        "startDate": null,
+        "endDate": null
+      },
+      "remark": "hard"
+    },
+    "date": "2025-03-24T13:35:06.910281368"
+  }
