@@ -21,7 +21,7 @@ while True:
     # Ask the user for their order
     order = input(
         "Please enter your order (or type 'done' to finish): ").lower()
-    if order == "done":
+    if order == "done" or order == "exit":
         break
     elif order in menu_lowercase:
         # Add the order to the cart and update the total
