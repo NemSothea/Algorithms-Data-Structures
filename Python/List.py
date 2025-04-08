@@ -1,4 +1,4 @@
-objects = [1,5,30,90,80]
+objects = [1, 5, 30, 90, 80]
 # print(objects)
 # print(objects[3])
 # print(objects[-1])
@@ -6,7 +6,6 @@ objects = [1,5,30,90,80]
 
 # newObjects = objects + [60,20,26]
 # print(newObjects.append(99))
-
 
 
 cubes = 4**3
